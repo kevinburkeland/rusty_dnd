@@ -9,7 +9,7 @@ fn main() {
     for _ in 0..6 {
         //roll 4d6, drop the lowest
         let mut rolls: Vec<u32> = Dice::d6(4);
-        rolls.sort();
+        rolls.sort_unstable();
         rolls.remove(0);
         //sum the remaining rolls
         let mut sum: u32 = 0;
