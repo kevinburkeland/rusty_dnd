@@ -1,6 +1,6 @@
 use crate::dice::Dice;
-//use std::fmt::Display;
-//use itertools::Itertools;
+
+
 pub mod dice;
 
 fn main() {
